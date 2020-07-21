@@ -1,0 +1,79 @@
+.container {
+  justify-content: center;
+  /* padding-top: 10px; */
+}
+
+body {
+  background: linear-gradient(rgb(100, 50, 50), rgb(80, 20, 20)) no-repeat;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  height: 700vh;
+  justify-content: top;
+}
+
+img {
+  width: 100px;
+}
+.brown {
+  font-size: 30px;
+  font-weight: bolder;
+}
+.p {
+  font-size: 10px !important;
+}
+#searchtext span {
+  background-color: #ff9;
+  color: #555;
+}
+.hidden {
+  display: none;
+}
+#button {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 10px 24px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 12px;
+  margin: 2px 2px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+a {
+  color: white;
+}
+ul {
+  text-align: Left;
+  border-style: dotted;
+  padding: 20px 24px;
+  border-radius: 8px;
+}
+@media only screen and (max-width: 768px) {
+  .container {
+    justify-content: center;
+    padding-top: 10px;
+  }
+  #brown {
+    font-size: 30px;
+    font-weight: bolder;
+  }
+}
+div {
+  padding: 10px;
+}
+@media only screen and (max-width: 375px) {
+  img {
+    width: 100%;
+    margin: auto;
+  }
+  #brown {
+    font-size: 50px;
+    font-weight: bolder;
+  }
+}
+div {
+  padding: 10px;
+}
